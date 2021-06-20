@@ -87,7 +87,7 @@
 
 .home__photo {
   height: 100%;
-  max-width: 100%;
+  width: 100%;
   grid-row: 1 / -2;
   object-fit: contain;
 }
@@ -150,16 +150,12 @@
 @media only screen and (max-width: 600px) {
   .home .container {
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 45px 100px 40px 35px;
+    grid-template-rows: calc(100vh - 75px - 220px - 6 * var(--padding-1)) 45px 100px 40px 35px;
   }
 
   .home__photo {
     grid-row: 1 / 2;
     grid-column: 1 / 2;
-    max-width: 100%;
-    max-height: 100%;
-    width: auto;
-    height: auto;
   }
 
   .social-list__link:hover {
