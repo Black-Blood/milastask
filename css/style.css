@@ -1,0 +1,66 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font: inherit;
+}
+
+html {
+  --font-family-1: "Noto Sans TC", Arial, sans-serif;
+  --font-family-2: "Great Vibes", cursive;
+
+  --padding-1: 25px;
+  --padding-2: 10px;
+  --padding-3: 25px;
+
+  --color-1: rgba(0, 0, 0, 1);
+  --color-2: rgba(255, 255, 255, 1);
+  --color-3: rgb(238, 67, 67);
+  --color-4: #686868;
+
+  --box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+
+  font-family: var(--font-family-1);
+  font-size: 12px;
+  font-weight: 400;
+
+  scroll-behavior: smooth;
+  scroll-padding-top: 75px;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0 var(--padding-1);
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+.section-title {
+  color: var(--color-1);
+  font-size: 3rem;
+  font-weight: 500;
+  line-height: 3.5rem;
+}
+
+@media only screen and (max-device-width: 900px) {
+  html {
+    --padding-1: 10px;
+  }
+
+  .section-title {
+    font-size: 2rem;
+  }
+}

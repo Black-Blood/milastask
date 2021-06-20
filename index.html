@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Milastask</title>
+
+  <link rel="shortcut icon" href="./icons/favicon.svg" type="image/x-icon">
+
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap"
+    rel="stylesheet">
+
+  <!-- animation -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <script src="js/wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
+
+  <!-- style -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/home.css">
+  <link rel="stylesheet" href="css/features.css">
+  <link rel="stylesheet" href="css/about.css">
+
+  <script src="js/script.js" defer></script>
+</head>
+
+<body class="page">
+  <header class="page-header" id="header">
+    <div class="container">
+      <a class="page-header__logo" href="/">Milastask</a>
+
+      <nav class="page-header-nav">
+        <a class="page-header-nav__link active" data-section-id="home" href="#home">Home</a>
+        <a class="page-header-nav__link" data-section-id="features" href="#features">Features</a>
+        <a class="page-header-nav__link" data-section-id="about" href="#about">About</a>
+        <a class="page-header-nav__link" data-section-id="services" href="#services">Services</a>
+        <a class="page-header-nav__link" data-section-id="projects" href="#projects">Projects</a>
+        <a class="page-header-nav__link" data-section-id="blog" href="#blog">Blog</a>
+      </nav>
+  </header>
+
+  <main class="page-main">
+    <section class="home" id="home">
+      <div class="container">
+        <h2 class="home__title wow animate__animated animate__fadeIn animate__delay-1s animate__slow">
+          I am Jack Barboza
+        </h2>
+
+        <p class="home__text wow animate__animated animate__fadeIn animate__delay-2s animate__slow">
+          Web design and web programming is what I love. For 3 years I have been developing web applications of various
+          complexity: from the usual "landing pages" to "online stores"
+        </p>
+
+        <a class="home__button wow animate__animated animate__fadeIn animate__delay-2s animate__slow" href="/">
+          <span class="home__button_rectangle">download</span>
+          <span class="home__button_text">CV</span>
+          <span class="home__button_arrow">&rarr;</span>
+        </a>
+
+        <ul class="social-list wow animate__animated animate__backInUp animate__delay-2s animate__slow">
+          <li>
+            <a class="social-list__link" href="/" style="background-color: #3A559F;">
+              <img src="./icons/social-networks/facebook.svg" alt="facebook">
+              <span class="social-list__link_text">facebook</span>
+            </a>
+          </li>
+          <li>
+            <a class=" social-list__link" href="/" style="background-color: #50ABF1;">
+              <img src="./icons/social-networks/twitter.svg" alt="twitter">
+              <span class="social-list__link_text">twitter</span>
+            </a>
+          </li>
+          <li>
+            <a class="social-list__link" href="/" style="background-color: #c837ab;">
+              <img src="./icons/social-networks/instagram.svg" alt="twitter">
+              <span class="social-list__link_text">instagram</span>
+            </a>
+          </li>
+          <li>
+            <a class="social-list__link" href="/" style="background-color: #0088cc;">
+              <img src="./icons/social-networks/telegram.svg" alt="telegram">
+              <span class="social-list__link_text">telegram</span>
+            </a>
+          </li>
+          <li>
+            <a class="social-list__link" href="/" style="background-color: #C9353D;">
+              <img src="./icons/social-networks/pinterest.svg" alt="pinterest">
+              <span class="social-list__link_text">pinterest</span>
+            </a>
+          </li>
+          <li>
+            <a class="social-list__link" href="/" style="background-color: #ffffff">
+              <img src="./icons/social-networks/github.svg" alt="github">
+              <span class="social-list__link_text" style="color: #000000;">github</span>
+            </a>
+          </li>
+        </ul>
+
+        <img class="home__photo wow animate__animated animate__fadeIn animate__slower" src="./img/header-bg-face.webp"
+          alt="" height="500">
+      </div>
+    </section>
+
+    <section class="features" id="features">
+      <div class="container">
+        <article class="features-article wow animate__animated animate__backInDown">
+          <h3 class="features-article__title">Front End Dev</h3>
+          <p class="features-article__text">
+            Front-end web development is the practice of producing HTML, CSS and JavaScript for a website or Web
+            Application so that a user can see and interact with them directly.
+          </p>
+          <a class="features-article__link" href="#">read more</a>
+        </article>
+
+        <article class="features-article wow animate__animated animate__backInUp">
+          <h3 class="features-article__title">UI Design for web</h3>
+          <p class="features-article__text">
+            User Interface (UI) — A specialization of web design that deals with the controls people use to interact
+            with a website or app, including button displays and gesture controls.
+          </p>
+          <a class="features-article__link" href="#">read more</a>
+        </article>
+
+        <article class="features-article wow animate__animated animate__backInDown">
+          <h3 class="features-article__title">UX Design for web</h3>
+          <p class="features-article__text">
+            User Experience (UX) — Another specialization of web design, this one dealing with user behavior and feeling
+            when using the site or app.
+          </p>
+          <a class="features-article__link" href="#">read more</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="container">
+        <div class="about-my-skills wow animate__animated animate__backInLeft animate__delay-1s">
+          <h3 class="about-my-skills__title">My Skills for work</h3>
+          <ul class="about-my-skills__list">
+            <li class="progress">
+              <span class="progress__text">HTML</span>
+              <span class="progress__value">70%</span>
+              <progress class="progress__line" max="100" value="70"></progress>
+              <div class="progress__animation wow"></div>
+            </li>
+            <li class="progress">
+              <span class="progress__text"">CSS</span>
+              <span class=" progress__value">85%</span>
+              <progress class="progress__line" max="100" value="85"></progress>
+              <div class="progress__animation wow"></div>
+            </li>
+            <li class="progress">
+              <span class="progress__text"">Javascript</span>
+              <span class=" progress__value">95%</span>
+              <progress class="progress__line" max="100" value="95"></progress>
+              <div class="progress__animation wow"></div>
+            </li>
+            <li class="progress">
+              <span class="progress__text"">Ajax</span>
+              <span class=" progress__value">80%</span>
+              <progress class="progress__line" max="100" value="80"></progress>
+              <div class="progress__animation wow"></div>
+            </li>
+            <li class="progress">
+              <span class="progress__text"">UI / UX Design</span>
+              <span class=" progress__value">90%</span>
+              <progress class="progress__line" max="100" value="90"></progress>
+              <div class="progress__animation wow"></div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="about-me wow animate__animated animate__backInRight animate__delay-1s">
+          <h2 class="section-title">About Me : Why I am different then other Freelancer.</h2>
+          <p class="about-me__text">
+            Freelancing gives me an opportunity to showcase my other skills aside from teaching and mentoring teachers.
+            I am happy to see business owners grow their business through my skills. It gives me a chance to earn on the
+            side. I enjoy the flexibility and freedom it gives me.
+          </p>
+          <p class="about-me__text">
+            Freelancing is the best training ground to be a solopreneur. Whatever you may be good at, you’d have a
+            better chance of mastering it and growing it into a business by freelancing it initially.
+          </p>
+          <a class="about-me__link" href="/">
+            <span class="about-me__link_rectangle">Learn</span>
+            <span class="about-me__link_text">More</span>
+            <span class="about-me__link_arrow">&rarr;</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="services">
+      <div class="container"></div>
+    </section>
+
+    <section id="projects">
+      <div class="container"></div>
+    </section>
+
+    <section id="blog">
+      <div class="container"></div>
+    </section>
+
+    <section>
+      <div class="container"></div>
+    </section>
+  </main>
+
+</body>
+
+</html>
