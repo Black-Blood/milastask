@@ -156,6 +156,10 @@
   .home__photo {
     grid-row: 1 / 2;
     grid-column: 1 / 2;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
   }
 
   .social-list__link:hover {
