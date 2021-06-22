@@ -28,6 +28,7 @@
   <link rel="stylesheet" href="css/home.css">
   <link rel="stylesheet" href="css/features.css">
   <link rel="stylesheet" href="css/about.css">
+  <link rel="stylesheet" href="css/services.css">
 
   <script src="js/script.js" defer></script>
 </head>
@@ -38,12 +39,12 @@
       <a class="page-header__logo" href="/">Milastask</a>
 
       <nav class="page-header-nav">
-        <a class="page-header-nav__link active" data-section-id="home" href="#home">Home</a>
-        <a class="page-header-nav__link" data-section-id="features" href="#features">Features</a>
-        <a class="page-header-nav__link" data-section-id="about" href="#about">About</a>
-        <a class="page-header-nav__link" data-section-id="services" href="#services">Services</a>
-        <a class="page-header-nav__link" data-section-id="projects" href="#projects">Projects</a>
-        <a class="page-header-nav__link" data-section-id="blog" href="#blog">Blog</a>
+        <a class="page-header-nav__link active" href="#home">Home</a>
+        <a class="page-header-nav__link" href="#features">Features</a>
+        <a class="page-header-nav__link" href="#about">About</a>
+        <a class="page-header-nav__link" href="#services">Services</a>
+        <a class="page-header-nav__link" href="#projects">Projects</a>
+        <a class="page-header-nav__link" href="#blog">Blog</a>
       </nav>
   </header>
 
@@ -198,19 +199,91 @@
       </div>
     </section>
 
-    <section id="services">
+    <section class="services" id="services">
+      <div class="container">
+        <h2 class="section-title">Services I Provide</h2>
+
+        <p class="services__about">
+          I can provide different services in spheres of web design to web programming. Here is a short list of them:
+        </p>
+
+        <nav class="services__list">
+          <a class="services__link" href="#">
+            <article class="services-article">
+              <img class="services-article__icon" src="./icons/services/photography.svg" alt="" height="50">
+              <h3 class="services-article__title">Photography</h3>
+              <p class="services-article__text">
+                Photography is the art of capturing light with a camera, to create
+                an image. With the right camera equipment, you can even photograph wavelengths of light invisible to the
+                human eye.
+              </p>
+            </article>
+          </a>
+          <a class="services__link" href="#">
+            <article class="services-article">
+              <img class="services-article__icon" src="./icons/services/brand.svg" alt="" height="50">
+
+              <h3 class="services-article__title">Branding</h3>
+              <p class="services-article__text">
+                Branding is the marketing practice of actively shaping your brand. It's not just a look or a logo. It
+                has come to signify the emotional "gut feeling" reaction a company can
+                elicit from its customers.
+              </p>
+            </article>
+          </a>
+          <a class="services__link" href="#">
+            <article class="services-article">
+              <img class="services-article__icon" src="./icons/services/logo.svg" alt="" height="50">
+
+              <h3 class="services-article__title">Logo Design</h3>
+              <p class="services-article__text">
+                Logos are images, texts, shapes, or a combination of the three that depict the name and purpose of a
+                business – to put it simply. A logo can and should be more than a symbol of identification.
+              </p>
+            </article>
+          </a>
+          <a class="services__link" href="#">
+            <article class="services-article">
+              <img class="services-article__icon" src="./icons/services/seo.svg" alt="" height="50">
+
+              <h3 class="services-article__title">SEO</h3>
+              <p class="services-article__text">
+                Search engine optimization means the process of improving your
+                site to increase its visibility when people search for products or services related to your business.
+              </p>
+            </article>
+          </a>
+          <a class="services__link" href="#">
+            <article class="services-article">
+              <img class="services-article__icon" src="./icons/services/web-design.svg" alt="" height="50">
+
+              <h3 class="services-article__title">Web Design</h3>
+              <p class="services-article__text">
+                Design is the process of collecting ideas, and aesthetically arranging and implementing them, guided by
+                certain principles for a specific purpose.
+              </p>
+            </article>
+          </a>
+          <a class="services__link" href="#">
+            <article class="services-article">
+              <img class="services-article__icon" src="./icons/services/web-programming.svg" alt="" height="50">
+
+              <h3 class="services-article__title">Web Development</h3>
+              <p class="services-article__text">
+                Web development is the building and maintenance of websites; it’s the work that happens behind the
+                scenes to make a website look great, work fast and perform well with a seamless user experience.
+              </p>
+            </article>
+          </a>
+        </nav>
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
       <div class="container"></div>
     </section>
 
-    <section id="projects">
-      <div class="container"></div>
-    </section>
-
-    <section id="blog">
-      <div class="container"></div>
-    </section>
-
-    <section>
+    <section class="blog" id="blog">
       <div class="container"></div>
     </section>
   </main>

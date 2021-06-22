@@ -1,0 +1,115 @@
+.services {
+  margin-top: 80px;
+
+  background-image: url(../icons/figures/triangle-1.svg);
+  background-position: calc(100% - 100px) 100px;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.services .section-title {
+  text-align: center;
+}
+
+.services__about {
+  margin-top: var(--padding-1);
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+.services__list {
+  margin-top: var(--padding-1);
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-rows: 300px;
+  grid-gap: var(--padding-1);
+}
+
+.services__link {
+  text-decoration: none;
+  display: block;
+}
+
+.services-article {
+  width: 100%;
+  height: 100%;
+  box-shadow: var(--box-shadow);
+  background-color: var(--color-2);
+
+  padding: var(--padding-1);
+
+  transition: 0.5s;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.services-article:hover {
+  background-color: var(--color-1);
+  box-shadow: none;
+}
+
+.services-article__icon {
+  height: 50px;
+  object-fit: contain;
+}
+
+.services-article:hover .services-article__icon {
+  height: 50px;
+  object-fit: contain;
+  filter: invert(100%);
+}
+
+.services-article__title {
+  display: inline-flex;
+  padding: 5px 10px;
+
+  font-weight: 500;
+  font-size: 1.6rem;
+
+  color: var(--color-1);
+  margin: var(--padding-2) 0;
+  transition: 0.2s;
+}
+
+.services-article:hover .services-article__title {
+  background-color: var(--color-3);
+  color: var(--color-2);
+}
+
+.services-article__text {
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: var(--color-4);
+  transition: 0.2s;
+}
+
+.services-article:hover .services-article__text {
+  color: var(--color-2);
+}
+
+@media only screen and (max-width: 700px) {
+  .services__list {
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 275px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .services__about {
+    font-size: 1.2rem;
+  }
+
+  .services__list {
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 275px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .services__list {
+    grid-template-columns: 1fr;
+  }
+}
