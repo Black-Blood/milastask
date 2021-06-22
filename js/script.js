@@ -8,7 +8,9 @@ let sectionLinksMenu = document.querySelector(".page-header-nav")
 let sectionsPosition = {}
 
 sections.forEach(section => {
-  sectionsPosition[section.offsetTop - 75 - window.screen.availHeight / 2] = section.id
+  let positionBox = section.getBoundingClientRect()
+  let scrollActivePosition = positionBox.top + pageYOffset - screen.availHeight / 3 - 75
+  sectionsPosition[scrollActivePosition] = section.id
 })
 
 document.addEventListener("scroll", () => {

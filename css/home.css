@@ -26,6 +26,7 @@
 
   color: var(--color-3);
   text-align: center;
+  animation-delay: 1s;
 }
 
 .home__text {
@@ -34,6 +35,7 @@
   font-weight: 200;
   color: var(--color-2);
   text-align: center;
+  animation-delay: 1.75s;
 }
 
 .home__button {
@@ -47,6 +49,7 @@
   cursor: pointer;
 
   text-decoration: none;
+  animation-delay: 1.75s;
 }
 
 .home__button_rectangle {
@@ -99,6 +102,7 @@
   grid-template-columns: repeat(6, auto);
   gap: var(--padding-2);
   list-style: none;
+  animation-delay: 1s;
 }
 
 .social-list__link {
