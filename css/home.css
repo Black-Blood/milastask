@@ -26,7 +26,7 @@
 
   color: var(--color-3);
   text-align: center;
-  animation-delay: 1s;
+  animation-delay: 1.5s;
 }
 
 .home__text {
@@ -35,7 +35,7 @@
   font-weight: 200;
   color: var(--color-2);
   text-align: center;
-  animation-delay: 1.75s;
+  animation-delay: 2.25s;
 }
 
 .home__button {
@@ -49,7 +49,7 @@
   cursor: pointer;
 
   text-decoration: none;
-  animation-delay: 1.75s;
+  animation-delay: 2.25s;
 }
 
 .home__button_rectangle {
@@ -94,6 +94,7 @@
   width: 100%;
   grid-row: 1 / -2;
   object-fit: contain;
+  animation-delay: 0.5s;
 }
 
 .social-list {
@@ -103,7 +104,7 @@
   grid-template-columns: repeat(6, auto);
   gap: var(--padding-2);
   list-style: none;
-  animation-delay: 1s;
+  animation-delay: 1.5s;
 }
 
 .social-list__link {
