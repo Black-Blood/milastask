@@ -35,3 +35,21 @@ document.addEventListener("scroll", () => {
 * End menu script
 *
 */
+
+let gallery = document.querySelectorAll(".photo")
+let galleryBG = document.querySelector(".photo__active_bg")
+let activePhoto
+
+gallery.forEach(photo => {
+  photo.addEventListener("click", () => {
+    if (!photo.classList.contains("active")) {
+      activePhoto = photo
+      photo.classList.toggle("active")
+    }
+  })
+})
+
+
+galleryBG.addEventListener("click", () => {
+  activePhoto.classList.remove("active")
+})

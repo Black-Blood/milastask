@@ -31,6 +31,7 @@
   grid-template-rows: 35px 1fr 35px;
   justify-items: start;
   gap: var(--padding-2);
+  border-radius: 5px;
 }
 
 .features-article__title {
@@ -69,6 +70,7 @@
   display: inline-flex;
   justify-content: center;
   align-items: center;
+  border-radius: 5px;
 }
 
 .features-article__link:hover {
@@ -90,5 +92,6 @@
   .features-article {
     grid-template-rows: 35px 100px 35px;
     box-shadow: var(--box-shadow);
+    border-radius: 0;
   }
 }

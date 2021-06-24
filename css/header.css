@@ -9,7 +9,7 @@
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 100000;
+  z-index: 1000;
 }
 
 .page-header .container {
@@ -54,6 +54,7 @@
   text-transform: capitalize;
 
   position: relative;
+  border-radius: 5px;
 }
 
 .page-header-nav__link:hover,
